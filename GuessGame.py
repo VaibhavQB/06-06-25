@@ -13,11 +13,11 @@ def guess_the_number():
             if guess < 100 or guess > 150:
                 print("Your Guess is out of the Guessing range" ) # User guesssed out of range
             elif guess < num :
-                print("You guessed too low, Go higher!")
+                print("You guessed too low, Go higher!")  # User Guessed too Low
             elif guess > num:
-                print("You guessed too high, Go lower!")   
+                print("You guessed too high, Go lower!")  # User Guessed too High
             else:
-                print("Congratulations! You guessed the number correctly!")
+                print("Congratulations! You guessed the number correctly!") # User Guessed Correctly
                 break
 
         except:
